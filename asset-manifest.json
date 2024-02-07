@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GiopFrankWebWixx/static/css/main.51bc9c01.css",
+    "main.js": "/GiopFrankWebWixx/static/js/main.dd945481.js",
+    "index.html": "/GiopFrankWebWixx/index.html",
+    "main.51bc9c01.css.map": "/GiopFrankWebWixx/static/css/main.51bc9c01.css.map",
+    "main.dd945481.js.map": "/GiopFrankWebWixx/static/js/main.dd945481.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51bc9c01.css",
+    "static/js/main.dd945481.js"
+  ]
+}
