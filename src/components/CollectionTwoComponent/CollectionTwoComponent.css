@@ -1,0 +1,55 @@
+/* CollectionsComponent.css */
+.page-margin1 {
+    margin-top: 200px; /* Ajusta el valor según la altura de tu barra de navegación */
+  }
+  
+  .title-container1 {
+    text-align: center;
+    margin-bottom: 30px;
+  margin-top: 230px;
+   
+  }
+  
+  .collection-title1 {
+    font-size: 28px;
+    color: #ffffff;
+    
+  }
+  
+  .collectionContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   /* background-color: #100f0ff8;*/
+   margin-bottom: 50px;
+  }
+  
+  .collectionItem1 {
+    margin: 20px;
+  }
+  
+  .collectionImage1 {
+    overflow: hidden; /* Para asegurarse de que no haya desbordamiento del contenido */
+    background-color: #100f0ff8; /* Color de fondo para el espacio en blanco alrededor de la imagen */
+  }
+  
+  .collectionImage1 img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+   /* border: 7px solid  #100f0ff8;*/
+    box-sizing: border-box;
+  }
+  
+  .commentary1 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Didot', serif; /* Establece la fuente "Didot" para los comentarios */
+    font-style: italic;
+    width: 80%;
+    text-align: left;
+    margin-top: 8px;
+    background-color: #100f0ff8 !important;
+  }
+  
