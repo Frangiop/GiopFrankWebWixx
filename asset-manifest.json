@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GiopFrankWebWixx/static/css/main.51bc9c01.css",
-    "main.js": "/GiopFrankWebWixx/static/js/main.dd945481.js",
-    "index.html": "/GiopFrankWebWixx/index.html",
-    "main.51bc9c01.css.map": "/GiopFrankWebWixx/static/css/main.51bc9c01.css.map",
-    "main.dd945481.js.map": "/GiopFrankWebWixx/static/js/main.dd945481.js.map"
+    "main.css": "/static/css/main.51bc9c01.css",
+    "main.js": "/static/js/main.ee14c91f.js",
+    "index.html": "/index.html",
+    "main.51bc9c01.css.map": "/static/css/main.51bc9c01.css.map",
+    "main.ee14c91f.js.map": "/static/js/main.ee14c91f.js.map"
   },
   "entrypoints": [
     "static/css/main.51bc9c01.css",
-    "static/js/main.dd945481.js"
+    "static/js/main.ee14c91f.js"
   ]
 }
