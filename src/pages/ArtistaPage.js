@@ -1,14 +1,12 @@
-// ArtistaPage.jsx
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import './ArtistaPage.css';
 import FooterComponent from '../components/FooterComponent/FooterComponent';
 import { useTranslation } from 'react-i18next';
-
+import { Link } from 'react-router-dom';
 
 const ArtistaPage = () => {
   const { t } = useTranslation();
-
 
   const capitulos = [
     { image: 'casemiro/capitulo1/cas1.png', link: '/capitulo1', title: 'CHAPTER 70' },
@@ -19,12 +17,10 @@ const ArtistaPage = () => {
   ];
 
   return (
-    
-    <div className="inicio-page " style={{ marginTop: '120px' }}>
-      
+    <div className="inicio-page" style={{ marginTop: '120px' }}>
       {/* Video de fondo */}
       <video autoPlay loop className="video-overlay">
-        <source src="/video/s.mp4" type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/video/s.mp4`} type="video/mp4" />
         Tu navegador no admite el elemento de video.
       </video>
 
@@ -32,20 +28,18 @@ const ArtistaPage = () => {
       <div className="contenedor-imagenes-artisticas">
         <h1 className="titulo-principal">CASEMIRO</h1>
         <a href="https://www.instagram.com/fran.giop" target="_blank" rel="noopener noreferrer">
-        <img src="casemiro/paralax/caseinsta.png" alt="Instagram" className="imagen-instagram" />
-    <p>Instagram</p>
-   
-  </a>
-  <div className="div-click">{t('Click to see a complete chapter')}</div>
+          <img src={`${process.env.PUBLIC_URL}/casemiro/paralax/caseinsta.png`} alt="Instagram" className="imagen-instagram" />
+          <p>Instagram</p>
+        </a>
+        <div className="div-click">{t('Click to see a complete chapter')}</div>
 
-      
         <div className="imagenes-artisticas">
           {capitulos.map((item, index) => (
             <div key={index} className="imagen-con-titulo">
               <p className="titulo-imagen">{item.title}</p>
-              <a href={item.link}>
-                <img src={item.image} alt={item.title} />
-              </a>
+              <Link to={item.link}>
+                <img src={`${process.env.PUBLIC_URL}/${item.image}`} alt={item.title} />
+              </Link>
             </div>
           ))}
         </div>
@@ -53,7 +47,7 @@ const ArtistaPage = () => {
 
       {/* Texto entre imágenes */}
       <div className="texto-entre-imagenes">
-      <p>{t('Embark on a journey through the world of Casemiro, an imaginative character shaped by diverse experiences in the modern world')}</p>
+        <p>{t('Embark on a journey through the world of Casemiro, an imaginative character shaped by diverse experiences in the modern world')}</p>
       </div>
 
       {/* Parallax con imagen de fondo */}
@@ -66,22 +60,21 @@ const ArtistaPage = () => {
       {/* Texto de estilo artístico */}
       <div className="texto-estilo-artistico">
         <p>
-          <span className="artistic-text">
-"Beginnings, First Casemiros"</span>
+          <span className="artistic-text">"Beginnings, First Casemiros"</span>
         </p>
       </div>
 
       {/* Contenedor de imágenes estilo que yo quiero */}
       <div className="contenedor-casemiro">
-  {Array.from({ length: 18 }, (_, index) => (
-    <div key={`imagen${index + 1}`} className={`imagen-casemiro imagen${index + 1}`}>
-      <img src={`${process.env.PUBLIC_URL}/casemiro/imagenes/${index + 1}.png`} alt={`Imagen ${index + 1}`} />
-    </div>
-  ))}
-</div>
+        {Array.from({ length: 18 }, (_, index) => (
+          <div key={`imagen${index + 1}`} className={`imagen-casemiro imagen${index + 1}`}>
+            <img src={`${process.env.PUBLIC_URL}/casemiro/imagenes/${index + 1}.png`} alt={`Imagen ${index + 1}`} />
+          </div>
+        ))}
+      </div>
 
-  {/* Pie de página */}
-  <FooterComponent/>
+      {/* Pie de página */}
+      <FooterComponent />
     </div>
   );
 };
