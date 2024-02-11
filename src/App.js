@@ -12,7 +12,7 @@ import CapituloCas1 from './pages/CapituloCas1';
 import CapituloCas2 from './pages/CapituloCas2';
 import CapituloCas3 from './pages/CapituloCas3';
 import CapituloCas4 from './pages/CapituloCas4';
-import CapituloCas11 from './pages/CapituloCas11';
+
 
 
 function App() {
@@ -32,11 +32,11 @@ function App() {
     <Route exact path="/multicollections2" element={<CollectionTwoComponent/>}/>
 
         {/* capitulos casemiro en artistpage  */}
-        {/*  <Route path="/capitulo1" element={<CapituloCas1/>} />*/}
+        <Route path="/capitulo1" element={<CapituloCas1/>} />
         <Route path="/capitulo2" element={<CapituloCas2/>} />
         <Route path="/capitulo3" element={<CapituloCas3/>} />
         <Route path="/capitulo4" element={<CapituloCas4/>} />
-        <Route path="/capitulo11" element={<CapituloCas11/>} />
+      
         </Routes>
    
         </div>
