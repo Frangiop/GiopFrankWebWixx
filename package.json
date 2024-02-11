@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build && echo frankgiop > ./build/CNAME",
+    "predeploy":"npm run build && echo www.frankgiop.com > ./build/CNAME",
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
