@@ -11,7 +11,7 @@ const ArtistaPage = () => {
 
 
   const capitulos = [
-    { image: 'casemiro/cap1/cas1.png', link: '/capitulo1', title: 'CHAPTER 70' },
+    { image: 'casemiro/capitulo1/cas1.png', link: '/capitulo1', title: 'CHAPTER 70' },
     { image: 'casemiro/cap2/1.png', link: '/capitulo2', title: 'CHAPTER 77' },
     { image: 'casemiro/cap3/1.png', link: '/capitulo3', title: 'CHAPTER 75' },
     { image: 'casemiro/cap4/1.png', link: '/capitulo4', title: 'CHAPTER 78' },
