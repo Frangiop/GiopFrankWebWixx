@@ -18,11 +18,11 @@ const ArtistaPage = () => {
 
   return (
     <div className="inicio-page" style={{ marginTop: '120px' }}>
-      {/* Video de fondo */}
-      <video autoPlay loop className="video-overlay">
-        <source src={`${process.env.PUBLIC_URL}/video/s.mp4`} type="video/mp4" />
-        Tu navegador no admite el elemento de video.
-      </video>
+    {/* Video de fondo */}
+    <video autoPlay loop muted className="video-overlay" style={{ height: '80vh', objectFit: 'cover' }}>
+      <source src={`${process.env.PUBLIC_URL}/video/fran-video.mp4`} type="video/mp4" />
+      Tu navegador no admite el elemento de video.
+    </video>
 
       {/* Contenedor de imágenes artísticas */}
       <div className="contenedor-imagenes-artisticas">
