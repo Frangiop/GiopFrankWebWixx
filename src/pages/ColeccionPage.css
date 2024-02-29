@@ -93,3 +93,37 @@
     }
   }
   
+
+  .contenedor-collection {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+
+.contenedor-collection p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambia la fuente */
+    font-size: 18px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+    padding: 20px; /* Añade espacio alrededor del párrafo */
+}
+
+.instagram-link {
+  margin-top: 20px; /* Espacio superior */
+  text-align: center; /* Centra el enlace */
+}
+
+.instagram-link a {
+  display: inline-block; /* Para que los estilos se apliquen correctamente */
+  background-color: #ffbf00; /* Color de fondo */
+  color: #4d4d4d; /* Color del texto */
+  padding: 15px 30px; /* Espacio interno */
+  border: 2px solid #4d4d4d; /* Borde */
+  border-radius: 30px; /* Borde redondeado */
+  text-decoration: none; /* Quita el subrayado */
+  font-family: "Times New Roman", Times, serif; /* Fuente */
+  font-size: 18px; /* Tamaño de fuente */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Efecto de transición */
+}
+
+.instagram-link a:hover {
+  background-color: #4d4d4d; /* Cambia el color de fondo al pasar el cursor */
+  color: white; /* Cambia el color del texto al pasar el cursor */
+}

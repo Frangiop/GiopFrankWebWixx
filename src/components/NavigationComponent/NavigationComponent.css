@@ -70,3 +70,15 @@
     background-color: rgba(255, 255, 255, 0.4);
     transition: background-color 0.1s;
   }
+
+
+  .firma {
+    width: 20vw; /* Ancho de la imagen como el 20% del ancho de la ventana gráfica */
+    display: block; /* Asegura que la imagen esté centrada */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+
+    /* Tamaño mínimo para dispositivos móviles */
+    @media only screen and (max-width: 768px) {
+        width: 80%; /* Porcentaje del ancho de la ventana gráfica */
+    }
+}

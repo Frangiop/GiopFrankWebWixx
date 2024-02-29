@@ -34,14 +34,14 @@ const NavigationComponent = () => {
   return (
     <div className={navClass}>
       <div className="logo">
-        <h1>GIOP</h1>
+      <img src="images/firma/Firmafrank.png" alt="Mi Firma"  class="firma" />
        {/* <Link to='/giop' className="nav-link">GIOP</Link> */}
       </div>
       <div className="line"></div>
       <div className="nav-links">
       
-        <Link to='/colecciones' className="nav-link">COLLECTIONS</Link>
-        <Link to='/artista' className="nav-link">DIGITAL ART</Link> 
+        <Link to='/colecciones' className="nav-link">ACRYLICS COLLECTIONS</Link>
+        <Link to='/artista' className="nav-link">COMIC</Link> 
  
       </div>
     </div>

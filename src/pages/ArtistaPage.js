@@ -47,7 +47,7 @@ const ArtistaPage = () => {
 
       {/* Texto entre imágenes */}
       <div className="texto-entre-imagenes">
-        <p>{t('Embark on a journey through the world of Casemiro, an imaginative character shaped by diverse experiences in the modern world')}</p>
+        <p>{t('Embark on a journey through the world of Casemiro,digital painting, an imaginative character created by me shaped by diverse experiences in the modern world')}</p>
       </div>
 
       {/* Parallax con imagen de fondo */}
