@@ -106,24 +106,31 @@
 }
 
 .instagram-link {
-  margin-top: 20px; /* Espacio superior */
-  text-align: center; /* Centra el enlace */
+  margin-top: 20px;
+  text-align: center;
 }
 
 .instagram-link a {
-  display: inline-block; /* Para que los estilos se apliquen correctamente */
-  background-color: #ffbf00; /* Color de fondo */
-  color: #4d4d4d; /* Color del texto */
-  padding: 15px 30px; /* Espacio interno */
-  border: 2px solid #4d4d4d; /* Borde */
-  border-radius: 30px; /* Borde redondeado */
-  text-decoration: none; /* Quita el subrayado */
-  font-family: "Times New Roman", Times, serif; /* Fuente */
-  font-size: 18px; /* Tamaño de fuente */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Efecto de transición */
+  display: inline-block;
+  background-color: #4d4d4d;
+  color: #fff;
+  padding: 12px 24px;
+  border: 2px solid #4d4d4d;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .instagram-link a:hover {
-  background-color: #4d4d4d; /* Cambia el color de fondo al pasar el cursor */
-  color: white; /* Cambia el color del texto al pasar el cursor */
+  background-color: #ffbf00;
+  color: #4d4d4d;
+}
+
+@media screen and (max-width: 600px) {
+  .instagram-link a {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
 }
